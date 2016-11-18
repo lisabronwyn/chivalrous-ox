@@ -1,7 +1,47 @@
+body {
+  background-image: url("themist.jpeg");
+  background-size: cover;
+  position: fixed;
+  transition: 12s ease-out;
+}
+
+body:hover {
+  background: url("starrysky2.jpeg");
+  background-size: cover;
+  position: fixed;
+  transition: 12s ease-in;
+}
+
+#table {
+
+
+}
+
+.player1 {
+  font-size: 30px;
+  text-align: center;
+  margin:0 auto;
+  width: 50%;
+  padding-top: 20px;
+  float: left;
+}
+
+.player2 {
+  float: left;
+  margin-left: 20px;
+  font-size: 30pt;
+}
+
+#game {
+  float: left;
+  margin-left: 20px;
+}
+
+
 #gameboard {
   width: 360px;
   margin: 140px auto 0px auto;
-
+  padding-left: 120px;
 }
 
 .row {
@@ -26,10 +66,14 @@
   border-right: 1px solid black;
 }
 
-.fa fa-times {
+.fa-times {
+  color: #001E3D;
+  text-shadow: 1px 1px 1px #666;
 
 }
 
-.fa fa-circle-o {
+.fa-circle-o {
+  color: #515151;
+  text-shadow: 1px 1px 1px #666;
 
 }
