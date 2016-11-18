@@ -2,7 +2,7 @@
 Make a Tic Tac Toe Game on FreeCodeCamp
 
 
-
+##Specs
 
 - [ ] Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/FreeCodeCamp/full/KzXQgy/.
 
